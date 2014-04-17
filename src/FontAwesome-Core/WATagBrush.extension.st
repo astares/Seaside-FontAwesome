@@ -31,6 +31,12 @@ WATagBrush >> fontAwesome5x [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeADNIcon [
+
+	self class: 'fa-adn'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeAdjustIcon [
 
 	self class: 'fa-adjust'
@@ -61,6 +67,84 @@ WATagBrush >> fontAwesomeAlignRightIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeAmbulanceIcon [
+
+	self class: 'fa-ambulance'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeAnchorIcon [
+
+	self class: 'fa-anchor'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeAndroidIcon [
+
+	self class: 'fa-android'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeAngleDoubleDownIcon [
+
+	self class: 'fa-angle-double-down'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeAngleDoubleLeftIcon [
+
+	self class: 'fa-angle-double-left'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeAngleDoubleRightIcon [
+
+	self class: 'fa-angle-double-right'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeAngleDoubleUpIcon [
+
+	self class: 'fa-angle-double-up'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeAngleDownIcon [
+
+	self class: 'fa-angle-down'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeAngleLeftIcon [
+
+	self class: 'fa-angle-left'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeAngleRightIcon [
+
+	self class: 'fa-angle-right'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeAngleUpIcon [
+
+	self class: 'fa-angle-up'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeAppleIcon [
+
+	self class: 'fa-apple'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeArchiveIcon [
+
+	self class: 'fa-archive'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeArrowCircleDownIcon [
 
 	self class: 'fa-arrow-circle-down'
@@ -76,6 +160,18 @@ WATagBrush >> fontAwesomeArrowCircleLeftIcon [
 WATagBrush >> fontAwesomeArrowCircleOutlinedDownIcon [
 
 	self class: 'fa-arrow-circle-o-down'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeArrowCircleOutlinedLeftIcon [
+
+	self class: 'fa-arrow-circle-o-left'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeArrowCircleOutlinedRightIcon [
+
+	self class: 'fa-arrow-circle-o-right'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -151,6 +247,12 @@ WATagBrush >> fontAwesomeAsteriskIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeBTCIcon [
+
+	self class: 'fa-btc'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeBackwardIcon [
 
 	self class: 'fa-backward'
@@ -181,9 +283,39 @@ WATagBrush >> fontAwesomeBarsIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeBeerIcon [
+
+	self class: 'fa-beer'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeBellIcon [
 
 	self class: 'fa-bell'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeBellOutlinedIcon [
+
+	self class: 'fa-bell-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeBitbucketIcon [
+
+	self class: 'fa-bitbucket'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeBitbucketSquareIcon [
+
+	self class: 'fa-bitbucket-square'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeBitcoinIcon [
+
+	self class: 'fa-bitcoin'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -229,15 +361,51 @@ WATagBrush >> fontAwesomeBriefcaseIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeBugIcon [
+
+	self class: 'fa-bug'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeBuildingOutlinedIcon [
+
+	self class: 'fa-building-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeBullhornIcon [
 
 	self class: 'fa-bullhorn'
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeBullseyeIcon [
+
+	self class: 'fa-bullseye'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCNYIcon [
+
+	self class: 'fa-cny'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCSS3Icon [
+
+	self class: 'fa-css3'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeCalendarIcon [
 
 	self class: 'fa-calendar'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCalendarOutlinedIcon [
+
+	self class: 'fa-calendar-o'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -265,9 +433,33 @@ WATagBrush >> fontAwesomeCaretLeftIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCaretQuareOutlinedLeftIcon [
+
+	self class: 'fa-caret-square-o-left'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeCaretRightIcon [
 
 	self class: 'fa-caret-right'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCaretSquareOutlineUpIcon [
+
+	self class: 'fa-caret-square-o-up'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCaretSquareOutlinedDownIcon [
+
+	self class: 'fa-caret-square-o-down'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCaretSquareOutlinedRightIcon [
+
+	self class: 'fa-caret-square-o-right'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -280,6 +472,12 @@ WATagBrush >> fontAwesomeCaretUpIcon [
 WATagBrush >> fontAwesomeCertificateIcon [
 
 	self class: 'fa-certificate'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeChainBrokenIcon [
+
+	self class: 'fa-chain-broken'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -307,9 +505,39 @@ WATagBrush >> fontAwesomeCheckIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCheckSquareIcon [
+
+	self class: 'fa-check-square'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeCheckSquareOutlinedIcon [
 
 	self class: 'fa-check-square-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeChevronCircleDownIcon [
+
+	self class: 'fa-chevron-circle-down'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeChevronCircleLeftIcon [
+
+	self class: 'fa-chevron-circle-left'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeChevronCircleRightIcon [
+
+	self class: 'fa-chevron-circle-right'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeChevronCircleUpIcon [
+
+	self class: 'fa-chevron-circle-up'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -337,15 +565,63 @@ WATagBrush >> fontAwesomeChevronUpIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCircleIcon [
+
+	self class: 'fa-circle'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCircleOutlinedIcon [
+
+	self class: 'fa-circle-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeClipboardIcon [
+
+	self class: 'fa-clipboard'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeClockOutlinedIcon [
 
 	self class: 'fa-clock-o'
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCloudDownloadIcon [
+
+	self class: 'fa-cloud-download'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeCloudIcon [
 
 	self class: 'fa-cloud'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCloudUploadIcon [
+
+	self class: 'fa-cloud-upload'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCodeForkIcon [
+
+	self class: 'fa-code-fork'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCodeIcon [
+
+	self class: 'fa-code'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCoffeeIcon [
+
+	self class: 'fa-coffee'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -391,6 +667,12 @@ WATagBrush >> fontAwesomeCommentsOutlinedIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCompassIcon [
+
+	self class: 'fa-compass'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeCompressIcon [
 
 	self class: 'fa-compress'
@@ -409,6 +691,12 @@ WATagBrush >> fontAwesomeCreditCardIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCropIcon [
+
+	self class: 'fa-crop'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeCrosshairsIcon [
 
 	self class: 'fa-crosshairs'
@@ -418,6 +706,12 @@ WATagBrush >> fontAwesomeCrosshairsIcon [
 WATagBrush >> fontAwesomeCutIcon [
 
 	self class: 'fa-cut'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeCutleryIcon [
+
+	self class: 'fa-cutlery'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -433,9 +727,39 @@ WATagBrush >> fontAwesomeDedentIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeDesktopIcon [
+
+	self class: 'fa-desktop'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeDollarIcon [
+
+	self class: 'fa-dollar'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeDotCircleOutlinedIcon [
+
+	self class: 'fa-dot-circle-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeDownloadIcon [
 
 	self class: 'fa-download'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeDribbleIcon [
+
+	self class: 'fa-dribbble'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeDropboxIcon [
+
+	self class: 'fa-dropbox'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -451,15 +775,57 @@ WATagBrush >> fontAwesomeEjectIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeEllipsisHorizontalIcon [
+
+	self class: 'fa-ellipsis-h'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeEllipsisVerticalIcon [
+
+	self class: 'fa-ellipsis-v'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeEnvelopeIcon [
 
 	self class: 'fa-envelope'
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeEraserIcon [
+
+	self class: 'fa-eraser'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeEurIcon [
+
+	self class: 'fa-eur'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeEuroIcon [
+
+	self class: 'fa-euro'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeExchangeIcon [
+
+	self class: 'fa-exchange'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeExclamationCircleIcon [
 
 	self class: 'fa-exclamation-circle'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeExclamationIcon [
+
+	self class: 'fa-exclamation'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -478,6 +844,12 @@ WATagBrush >> fontAwesomeExpandIcon [
 WATagBrush >> fontAwesomeExternalLinkIcon [
 
 	self class: 'fa-external-link'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeExternalLinkSquareIcon [
+
+	self class: 'fa-external-link-square'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -517,9 +889,39 @@ WATagBrush >> fontAwesomeFastForwardIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeFemaleIcon [
+
+	self class: 'fa-female'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeFighterJetIcon [
+
+	self class: 'fa-fighter-jet'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeFileIcon [
+
+	self class: 'fa-file'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeFileOutlinedIcon [
 
 	self class: 'fa-file-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeFileTextIcon [
+
+	self class: 'fa-file-text'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeFileTextOutlinedIcon [
+
+	self class: 'fa-file-text-o'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -541,15 +943,33 @@ WATagBrush >> fontAwesomeFilterIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeFireExtinguisherIcon [
+
+	self class: 'fa-fire-extinguisher'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeFireIcon [
 
 	self class: 'fa-fire'
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeFlagCheckeredIcon [
+
+	self class: 'fa-flag-checkered'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeFlagIcon [
 
 	self class: 'fa-flag'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeFlagOutlinedIcon [
+
+	self class: 'fa-flag-o'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -562,6 +982,12 @@ WATagBrush >> fontAwesomeFlashIcon [
 WATagBrush >> fontAwesomeFlaskIcon [
 
 	self class: 'fa-flask'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeFlickrIcon [
+
+	self class: 'fa-flickr'
 ]
 
 { #category : #'*fontawesome-core-canvas' }
@@ -595,6 +1021,18 @@ WATagBrush >> fontAwesomeFolderOpenIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeFolderOpenOutlinedIcon [
+
+	self class: 'fa-folder-open-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeFolderOutlinedIcon [
+
+	self class: 'fa-folder-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeFontIcon [
 
 	self class: 'fa-font'
@@ -604,6 +1042,30 @@ WATagBrush >> fontAwesomeFontIcon [
 WATagBrush >> fontAwesomeForwardIcon [
 
 	self class: 'fa-forward'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeFoursquareIcon [
+
+	self class: 'fa-foursquare'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeFrownOutlinedIcon [
+
+	self class: 'fa-frown-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeGBPIcon [
+
+	self class: 'fa-gbp'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeGamepadIcon [
+
+	self class: 'fa-gamepad'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -631,6 +1093,12 @@ WATagBrush >> fontAwesomeGiftIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeGithubAlternativeIcon [
+
+	self class: 'fa-github-alt'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeGithubIcon [
 
 	self class: 'fa-github'
@@ -640,6 +1108,12 @@ WATagBrush >> fontAwesomeGithubIcon [
 WATagBrush >> fontAwesomeGithubSquareIcon [
 
 	self class: 'fa-trophy'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeGittipIcon [
+
+	self class: 'fa-gittip'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -676,6 +1150,18 @@ WATagBrush >> fontAwesomeGroupIcon [
 WATagBrush >> fontAwesomeHDDOutlinedIcon [
 
 	self class: 'fa-hdd-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeHSquareIcon [
+
+	self class: 'fa-h-square'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeHTML5Icon [
+
+	self class: 'fa-html5'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -727,6 +1213,18 @@ WATagBrush >> fontAwesomeHomeIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeHospitalOutlinedIcon [
+
+	self class: 'fa-hospital-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeINRIcon [
+
+	self class: 'fa-inr'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeIdentIcon [
 
 	self class: 'fa-indent'
@@ -744,6 +1242,18 @@ WATagBrush >> fontAwesomeInfoCircleIcon [
 	self class: 'fa-info-circle'
 ]
 
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeInfoIcon [
+
+	self class: 'fa-info'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeInstagramIcon [
+
+	self class: 'fa-instagram'
+]
+
 { #category : #'*fontawesome-core-canvas' }
 WATagBrush >> fontAwesomeInverse [
 
@@ -757,9 +1267,27 @@ WATagBrush >> fontAwesomeItalicIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeJPYIcon [
+
+	self class: 'fa-jpy'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeKeyIcon [
 
 	self class: 'fa-key'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeKeyboardOutlinedIcon [
+
+	self class: 'fa-keyboard-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeLaptopIcon [
+
+	self class: 'fa-laptop'
 ]
 
 { #category : #'*fontawesome-core-canvas' }
@@ -787,6 +1315,24 @@ WATagBrush >> fontAwesomeLemonOutlinedIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeLevelDownIcon [
+
+	self class: 'fa-level-down'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeLevelUpIcon [
+
+	self class: 'fa-level-up'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeLightbulbOutlinedIcon [
+
+	self class: 'fa-lightbulb-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeLinkIcon [
 
 	self class: 'fa-link'
@@ -802,6 +1348,12 @@ WATagBrush >> fontAwesomeLinkedInIcon [
 WATagBrush >> fontAwesomeLinkedInSquareIcon [
 
 	self class: 'fa-linkedin-square'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeLinuxIcon [
+
+	self class: 'fa-linux'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -829,9 +1381,39 @@ WATagBrush >> fontAwesomeListUnorderedIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeLocationArrowIcon [
+
+	self class: 'fa-location-arrow'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeLockIcon [
 
 	self class: 'fa-lock'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeLongArrowDownIcon [
+
+	self class: 'fa-long-arrow-down'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeLongArrowLeftIcon [
+
+	self class: 'fa-long-arrow-left'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeLongArrowRightIcon [
+
+	self class: 'fa-long-arrow-right'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeLongArrowUpIcon [
+
+	self class: 'fa-long-arrow-up'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -853,9 +1435,57 @@ WATagBrush >> fontAwesomeMailForwardIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeMailReplyAllIcon [
+
+	self class: 'fa-mail-reply-all'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeMailReplyIcon [
+
+	self class: 'fa-mail-reply'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeMaleIcon [
+
+	self class: 'fa-male'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeMapMarkerIcon [
 
 	self class: 'fa-map-marker'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeMaxCDNIcon [
+
+	self class: 'fa-maxcdn'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeMedkitIcon [
+
+	self class: 'fa-medkit'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeMehOutlinedIcon [
+
+	self class: 'fa-meh-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeMicrophoneIcon [
+
+	self class: 'fa-microphone'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeMicrophoneSlashIcon [
+
+	self class: 'fa-microphone-slash'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -871,9 +1501,39 @@ WATagBrush >> fontAwesomeMinusIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeMinusSquareIcon [
+
+	self class: 'fa-minus-square'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeMinusSquareOutlinedIcon [
+
+	self class: 'fa-minus-square-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeMobileIcon [
+
+	self class: 'fa-mobile'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeMobilePhoneIcon [
+
+	self class: 'fa-mobile-phone'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeMoneyIcon [
 
 	self class: 'fa-money'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeMoonOutlinedIcon [
+
+	self class: 'fa-moon-o'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -889,9 +1549,21 @@ WATagBrush >> fontAwesomeOutdentIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomePageLinesIcon [
+
+	self class: 'fa-pagelines'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomePaperclipIcon [
 
 	self class: 'fa-paperclip'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomePasteIcon [
+
+	self class: 'fa-paste'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -904,6 +1576,12 @@ WATagBrush >> fontAwesomePauseIcon [
 WATagBrush >> fontAwesomePencilIcon [
 
 	self class: 'fa-pencil'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomePencilSquareIcon [
+
+	self class: 'fa-pencil-square'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -949,6 +1627,12 @@ WATagBrush >> fontAwesomePlaneIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomePlayCircleIcon [
+
+	self class: 'fa-play-circle'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomePlayCircleOutlinedIcon [
 
 	self class: 'fa-play-circle-o'
@@ -973,6 +1657,12 @@ WATagBrush >> fontAwesomePlusIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomePlusSquareIcon [
+
+	self class: 'fa-plus-square-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomePowerOffIcon [
 
 	self class: 'fa-power-off'
@@ -982,6 +1672,12 @@ WATagBrush >> fontAwesomePowerOffIcon [
 WATagBrush >> fontAwesomePrintIcon [
 
 	self class: 'fa-print'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomePuzzlePieceIcon [
+
+	self class: 'fa-puzzle-piece'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -997,9 +1693,51 @@ WATagBrush >> fontAwesomeQuestionCircleIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeQuestionIcon [
+
+	self class: 'fa-question'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeQuoteLeftIcon [
+
+	self class: 'fa-quote-left'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeQuoteRightIcon [
+
+	self class: 'fa-quote-right'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeRKWIcon [
+
+	self class: 'fa-krw'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeRMBIcon [
+
+	self class: 'fa-rmb'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeRSSIcon [
 
 	self class: 'fa-rss'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeRSSSquareIcon [
+
+	self class: 'fa-rss-square'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeRUBIcon [
+
+	self class: 'fa-rub'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -1015,9 +1753,27 @@ WATagBrush >> fontAwesomeRefreshIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeRenrenIcon [
+
+	self class: 'fa-renren'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeRepeatIcon [
 
 	self class: 'fa-repeat'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeReplyAllIcon [
+
+	self class: 'fa-reply-all'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeReplyIcon [
+
+	self class: 'fa-reply'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -1030,6 +1786,12 @@ WATagBrush >> fontAwesomeRetweetIcon [
 WATagBrush >> fontAwesomeRoadIcon [
 
 	self class: 'fa-road'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeRocketIcon [
+
+	self class: 'fa-rocket'
 ]
 
 { #category : #'*fontawesome-core-canvas' }
@@ -1060,6 +1822,24 @@ WATagBrush >> fontAwesomeRotateLeftIcon [
 WATagBrush >> fontAwesomeRotateRightIcon [
 
 	self class: 'fa-rotate-right'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeRoubleIcon [
+
+	self class: 'fa-rouble'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeRubleIcon [
+
+	self class: 'fa-ruble'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeRupeeIcon [
+
+	self class: 'fa-rupee'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -1099,9 +1879,21 @@ WATagBrush >> fontAwesomeShareIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeShareSquareIcon [
+
+	self class: 'fa-share-square'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeShareSquareOutlinedIcon [
 
 	self class: 'fa-share-square-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeShieldIcon [
+
+	self class: 'fa-shield'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -1135,6 +1927,42 @@ WATagBrush >> fontAwesomeSitemapIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeSkypeIcon [
+
+	self class: 'fa-skype'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeSmileOutlinedIcon [
+
+	self class: 'fa-smile-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeSortAlphaAscendingIcon [
+
+	self class: 'fa-sort-alpha-asc'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeSortAlphaDescendingIcon [
+
+	self class: 'fa-sort-alpha-desc'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeSortAmountAscendingIcon [
+
+	self class: 'fa-sort-amount-asc'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeSortAmountDescendingIcon [
+
+	self class: 'fa-sort-amount-desc'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeSortAscendingIcon [
 
 	self class: 'fa-sort-asc'
@@ -1159,6 +1987,18 @@ WATagBrush >> fontAwesomeSortIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeSortNumericAscendingIcon [
+
+	self class: 'fa-sort-numeric-asc'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeSortNumericDescendingIcon [
+
+	self class: 'fa-sort-numeric-desc'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeSortUpIcon [
 
 	self class: 'fa-sort-up'
@@ -1168,6 +2008,12 @@ WATagBrush >> fontAwesomeSortUpIcon [
 WATagBrush >> fontAwesomeSpin [
 
 	self class: 'fa-spin'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeSpinnerIcon [
+
+	self class: 'fa-spinner'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -1201,9 +2047,39 @@ WATagBrush >> fontAwesomeStack2x [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeStackExchangeIcon [
+
+	self class: 'fa-stack-exchange'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeStackOverflowIcon [
+
+	self class: 'fa-stack-overflow'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeStarHalfEmptyIcon [
+
+	self class: 'fa-star-half-empty'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeStarHalfFullIcon [
+
+	self class: 'fa-star-half-full'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeStarHalfIcon [
 
 	self class: 'fa-star-half'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeStarHalfOutlinedIcon [
+
+	self class: 'fa-star-half-o'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -1231,6 +2107,12 @@ WATagBrush >> fontAwesomeStepForwardIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeStethoscopeIcon [
+
+	self class: 'fa-stethoscope'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeStopIcon [
 
 	self class: 'fa-stop'
@@ -1240,6 +2122,36 @@ WATagBrush >> fontAwesomeStopIcon [
 WATagBrush >> fontAwesomeStrikethroughIcon [
 
 	self class: 'fa-strikethrough'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeSubscriptIcon [
+
+	self class: 'fa-subscript'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeSuitcaseIcon [
+
+	self class: 'fa-suitcase'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeSunOutlinedIcon [
+
+	self class: 'fa-sun-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeSuperscriptIcon [
+
+	self class: 'fa-superscript'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeTRYIcon [
+
+	self class: 'fa-try'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -1267,6 +2179,12 @@ WATagBrush >> fontAwesomeTableIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeTabletIcon [
+
+	self class: 'fa-tablet'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeTachometerIcon [
 
 	self class: 'fa-tachometer'
@@ -1291,6 +2209,12 @@ WATagBrush >> fontAwesomeTasksIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeTerminalIcon [
+
+	self class: 'fa-terminal'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeTextHeightIcon [
 
 	self class: 'fa-text-height'
@@ -1309,6 +2233,12 @@ WATagBrush >> fontAwesomeThumbTackIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeThumbsDownIcon [
+
+	self class: 'fa-thumbs-down'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeThumbsOutlinedDownIcon [
 
 	self class: 'fa-thumbs-o-down'
@@ -1318,6 +2248,18 @@ WATagBrush >> fontAwesomeThumbsOutlinedDownIcon [
 WATagBrush >> fontAwesomeThumbsOutlinedUpIcon [
 
 	self class: 'fa-thumbs-o-up'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeThumbsUpIcon [
+
+	self class: 'fa-thumbs-up'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeTicketIcon [
+
+	self class: 'fa-ticket'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -1345,9 +2287,39 @@ WATagBrush >> fontAwesomeTintIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeToggleDownIcon [
+
+	self class: 'fa-toggle-down'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeToggleLeftIcon [
+
+	self class: 'fa-toggle-left'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeToggleRightIcon [
+
+	self class: 'fa-toggle-right'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeToggleUpIcon [
+
+	self class: 'fa-toggle-up'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeTrashOutlinedIcon [
 
 	self class: 'fa-trash-o'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeTrelloIcon [
+
+	self class: 'fa-trello'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -1363,6 +2335,24 @@ WATagBrush >> fontAwesomeTruckIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeTumblrIcon [
+
+	self class: 'fa-tumblr'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeTumblrSquareIcon [
+
+	self class: 'fa-tumblr-square'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeTurkishLiraIcon [
+
+	self class: 'fa-turkish-lira'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeTwitterIcon [
 
 	self class: 'fa-twitter'
@@ -1375,6 +2365,18 @@ WATagBrush >> fontAwesomeTwitterSquareIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeUSDIcon [
+
+	self class: 'fa-usd'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeUmbrellaIcon [
+
+	self class: 'fa-umbrella'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeUnderlineIcon [
 
 	self class: 'fa-underline'
@@ -1384,6 +2386,18 @@ WATagBrush >> fontAwesomeUnderlineIcon [
 WATagBrush >> fontAwesomeUndoIcon [
 
 	self class: 'fa-undo'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeUnlinkIcon [
+
+	self class: 'fa-unlink'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeUnlockAlternativeIcon [
+
+	self class: 'fa-unlock-alt'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -1411,15 +2425,33 @@ WATagBrush >> fontAwesomeUserIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeUserMedicineIcon [
+
+	self class: 'fa-user-md'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeUsersIcon [
 
 	self class: 'fa-users'
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeVKIcon [
+
+	self class: 'fa-vk'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeVideoCameraIcon [
 
 	self class: 'fa-video-camera'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeVimeoSquareIcon [
+
+	self class: 'fa-vimeo-square'
 ]
 
 { #category : #'*fontawesome-core-icons' }
@@ -1441,13 +2473,73 @@ WATagBrush >> fontAwesomeVolumeUpIcon [
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeWONIcon [
+
+	self class: 'fa-won'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeWarningIcon [
 
 	self class: 'fa-warning'
 ]
 
 { #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeWeiboIcon [
+
+	self class: 'fa-weibo'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeWheelchairIcon [
+
+	self class: 'fa-wheelchair'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeWindowsIcon [
+
+	self class: 'fa-windows'
+]
+
+{ #category : #'*fontawesome-core-icons' }
 WATagBrush >> fontAwesomeWrenchIcon [
 
 	self class: 'fa-wrench'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeXingIcon [
+
+	self class: 'fa-xing'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeXingSquareIcon [
+
+	self class: 'fa-xing-square'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeYENIcon [
+
+	self class: 'fa-yen'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeYoutubeIcon [
+
+	self class: 'fa-youtube'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeYoutubePlayIcon [
+
+	self class: 'fa-youtube-play'
+]
+
+{ #category : #'*fontawesome-core-icons' }
+WATagBrush >> fontAwesomeYoutubeSquareIcon [
+
+	self class: 'fa-youtube-square'
 ]
