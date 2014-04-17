@@ -6,10 +6,16 @@
 The ""FontAwesome for Seaside"" project is a small [Seaside][1] wrapper for the FontAwesome project. 
 [FontAwesome][2] is an iconic font designed for the user with [Twitter Bootstrap][3]. 
 
-The project is located on STHub at [http://smalltalkhub.com/#!/~TorstenBergmann/FontAwesome][4]
+It is therefore a nice addition to the already available [Bootstrap for Seaside][4] project to give your Smalltalk based web application a nice stylish look.
 
-## License
-Font Awesome is licensed under [SIL OFL 1.1][5] with Code licensed under MIT License.
+### Project location
+The project is located on STHub at [http://smalltalkhub.com/#!/~TorstenBergmann/FontAwesome][5]
+
+### Demo 
+A demo can be found on [http://pharo.pharocloud.com/fontawesome][8].
+
+### License
+Font Awesome is licensed under [SIL OFL 1.1][6] with Code licensed under MIT License.
 The Pharo Smalltalk wrapper code is under MIT License.
 
 ## Installation
@@ -24,13 +30,13 @@ Alternatively to install the packages manually into your Pharo image just evalua
         load.
     ((Smalltalk at: #ConfigurationOfFontAwesome) project stableVersion) load.
 
-## Run the Demo
+## Run the Demo locally
 
 Start the web server for Seaside - for instance with Zinc evaluate:
 
     ZnZincServerAdaptor startOn: 8080
     
-Now point your browser to [http://localhost:8080/fontawesome][6]
+Now point your browser to [http://localhost:8080/fontawesome][7]
 
 ## Use in your own application
 ### Necessary Seaside libraries 
@@ -64,9 +70,11 @@ The package comes with 422 tests in the package ***FontAwesome-Tests-Core***. Ju
   [1]: http://www.seaside.st
   [2]: http://fortawesome.github.io/Font-Awesome/
   [3]: http://getbootstrap.com
-  [4]: http://smalltalkhub.com/#!/~TorstenBergmann/FontAwesome
-  [5]: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
-  [6]: http://localhost:8080/fontawesome
+  [4]: http://smalltalkhub.com/#!/~TorstenBergmann/Bootstrap
+  [5]: http://smalltalkhub.com/#!/~TorstenBergmann/FontAwesome
+  [6]: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+  [7]: http://localhost:8080/fontawesome
+  [8]: http://pharo.pharocloud.com/fontawesome
 "
 Class {
 	#name : #ConfigurationOfFontAwesome,
