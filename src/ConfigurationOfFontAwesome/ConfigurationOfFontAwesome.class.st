@@ -12,10 +12,13 @@ It is therefore a nice addition to the already available [Bootstrap for Seaside]
 The project is located on STHub at [http://smalltalkhub.com/#!/~TorstenBergmann/FontAwesome][5]
 
 ### Demo 
-A demo can be found on [http://pharo.pharocloud.com/fontawesome][8].
+A demo can be found on [http://pharo.pharocloud.com/fontawesome][6].
+
+### Screenshot
+![The demo][7]
 
 ### License
-Font Awesome is licensed under [SIL OFL 1.1][6] with Code licensed under MIT License.
+Font Awesome is licensed under [SIL OFL 1.1][8] with Code licensed under MIT License.
 The Pharo Smalltalk wrapper code is under MIT License.
 
 ## Installation
@@ -36,7 +39,7 @@ Start the web server for Seaside - for instance with Zinc evaluate:
 
     ZnZincServerAdaptor startOn: 8080
     
-Now point your browser to [http://localhost:8080/fontawesome][7]
+Now point your browser to [http://localhost:8080/fontawesome][9]
 
 ## Use in your own application
 ### Necessary Seaside libraries 
@@ -72,9 +75,10 @@ The package comes with 422 tests in the package ***FontAwesome-Tests-Core***. Ju
   [3]: http://getbootstrap.com
   [4]: http://smalltalkhub.com/#!/~TorstenBergmann/Bootstrap
   [5]: http://smalltalkhub.com/#!/~TorstenBergmann/FontAwesome
-  [6]: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
-  [7]: http://localhost:8080/fontawesome
-  [8]: http://pharo.pharocloud.com/fontawesome
+  [6]: http://pharo.pharocloud.com/fontawesome
+  [7]: http://lists.squeakfoundation.org/pipermail/seaside/attachments/20140417/126246d3/fontawesome-0001.png
+  [8]: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+  [9]: http://localhost:8080/fontawesome
 "
 Class {
 	#name : #ConfigurationOfFontAwesome,
