@@ -78,6 +78,15 @@ FAWCanvasBrushTest >> testFontAwesome5x [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeADNIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeADNIcon ]
+		gives: '<span class="fa-adn"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeAdjustIcon [
 
 	self
@@ -123,6 +132,123 @@ FAWCanvasBrushTest >> testFontAwesomeAlignRightIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeAmbulanceIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeAmbulanceIcon ]
+		gives: '<span class="fa-ambulance"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeAnchorIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeAnchorIcon ]
+		gives: '<span class="fa-anchor"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeAndroidIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeAndroidIcon ]
+		gives: '<span class="fa-android"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeAngleDoubleDownIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeAngleDoubleDownIcon ]
+		gives: '<span class="fa-angle-double-down"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeAngleDoubleLeftIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeAngleDoubleLeftIcon ]
+		gives: '<span class="fa-angle-double-left"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeAngleDoubleRightIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeAngleDoubleRightIcon ]
+		gives: '<span class="fa-angle-double-right"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeAngleDoubleUpIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeAngleDoubleUpIcon ]
+		gives: '<span class="fa-angle-double-up"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeAngleDownIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeAngleDownIcon ]
+		gives: '<span class="fa-angle-down"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeAngleLeftIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeAngleLeftIcon ]
+		gives: '<span class="fa-angle-left"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeAngleRightIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeAngleRightIcon ]
+		gives: '<span class="fa-angle-right"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeAngleUpIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeAngleUpIcon ]
+		gives: '<span class="fa-angle-up"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeAppleIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeAppleIcon ]
+		gives: '<span class="fa-apple"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeArchiveIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeArchiveIcon ]
+		gives: '<span class="fa-archive"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeArrowCircleDownIcon [
 
 	self
@@ -137,6 +263,24 @@ FAWCanvasBrushTest >> testFontAwesomeArrowCircleLeftIcon [
 	self
 		assert: [ :html | html span fontAwesomeArrowCircleLeftIcon ]
 		gives: '<span class="fa-arrow-circle-left"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeArrowCircleOutlinedLeftIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeArrowCircleOutlinedLeftIcon ]
+		gives: '<span class="fa-arrow-circle-o-left"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeArrowCircleOutlinedRightIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeArrowCircleOutlinedRightIcon ]
+		gives: '<span class="fa-arrow-circle-o-right"></span>'
 
 ]
 
@@ -240,6 +384,15 @@ FAWCanvasBrushTest >> testFontAwesomeAsteriskIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeBTCIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeBTCIcon ]
+		gives: '<span class="fa-btc"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeBackwardIcon [
 
 	self
@@ -285,11 +438,56 @@ FAWCanvasBrushTest >> testFontAwesomeBarsIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeBeerIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeBeerIcon ]
+		gives: '<span class="fa-beer"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeBellIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeBellIcon ]
 		gives: '<span class="fa-bell"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeBellOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeBellOutlinedIcon ]
+		gives: '<span class="fa-bell-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeBitbucketIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeBitbucketIcon ]
+		gives: '<span class="fa-bitbucket"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeBitbucketSquareIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeBitbucketSquareIcon ]
+		gives: '<span class="fa-bitbucket-square"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeBitcoinIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeBitcoinIcon ]
+		gives: '<span class="fa-bitcoin"></span>'
 
 ]
 
@@ -357,6 +555,24 @@ FAWCanvasBrushTest >> testFontAwesomeBriefcaseIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeBugIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeBugIcon ]
+		gives: '<span class="fa-bug"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeBuildingOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeBuildingOutlinedIcon ]
+		gives: '<span class="fa-building-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeBullhornIcon [
 
 	self
@@ -366,11 +582,47 @@ FAWCanvasBrushTest >> testFontAwesomeBullhornIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeBullseyeIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeBullseyeIcon ]
+		gives: '<span class="fa-bullseye"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCNYIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCNYIcon ]
+		gives: '<span class="fa-cny"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCSS3Icon [
+
+	self
+		assert: [ :html | html span fontAwesomeCSS3Icon ]
+		gives: '<span class="fa-css3"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeCalendarIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeCalendarIcon ]
 		gives: '<span class="fa-calendar"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCalendarOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCalendarOutlinedIcon ]
+		gives: '<span class="fa-calendar-o"></span>'
 
 ]
 
@@ -411,11 +663,47 @@ FAWCanvasBrushTest >> testFontAwesomeCaretLeftIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCaretQuareOutlinedLeftIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCaretQuareOutlinedLeftIcon ]
+		gives: '<span class="fa-caret-square-o-left"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeCaretRightIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeCaretRightIcon ]
 		gives: '<span class="fa-caret-right"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCaretSquareOutlineUpIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCaretSquareOutlineUpIcon ]
+		gives: '<span class="fa-caret-square-o-up"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCaretSquareOutlinedDownIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCaretSquareOutlinedDownIcon ]
+		gives: '<span class="fa-caret-square-o-down"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCaretSquareOutlinedRightIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCaretSquareOutlinedRightIcon ]
+		gives: '<span class="fa-caret-square-o-right"></span>'
 
 ]
 
@@ -434,6 +722,15 @@ FAWCanvasBrushTest >> testFontAwesomeCertificateIcon [
 	self
 		assert: [ :html | html span fontAwesomeCertificateIcon ]
 		gives: '<span class="fa-certificate"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeChainBrokenIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeChainBrokenIcon ]
+		gives: '<span class="fa-chain-broken"></span>'
 
 ]
 
@@ -474,11 +771,56 @@ FAWCanvasBrushTest >> testFontAwesomeCheckIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCheckSquareIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCheckSquareIcon ]
+		gives: '<span class="fa-check-square"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeCheckSquareOutlinedIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeCheckSquareOutlinedIcon ]
 		gives: '<span class="fa-check-square-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeChevronCircleDownIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeChevronCircleDownIcon ]
+		gives: '<span class="fa-chevron-circle-down"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeChevronCircleLeftIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeChevronCircleLeftIcon ]
+		gives: '<span class="fa-chevron-circle-left"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeChevronCircleRightIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeChevronCircleRightIcon ]
+		gives: '<span class="fa-chevron-circle-right"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeChevronCircleUpIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeChevronCircleUpIcon ]
+		gives: '<span class="fa-chevron-circle-up"></span>'
 
 ]
 
@@ -519,11 +861,83 @@ FAWCanvasBrushTest >> testFontAwesomeChevronUpIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCircleIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCircleIcon ]
+		gives: '<span class="fa-circle"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCircleOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCircleOutlinedIcon ]
+		gives: '<span class="fa-circle-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeClipboardIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeClipboardIcon ]
+		gives: '<span class="fa-clipboard"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCloudDownloadIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCloudDownloadIcon ]
+		gives: '<span class="fa-cloud-download"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeCloudIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeCloudIcon ]
 		gives: '<span class="fa-cloud"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCloudUploadIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCloudUploadIcon ]
+		gives: '<span class="fa-cloud-upload"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCodeForkIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCodeForkIcon ]
+		gives: '<span class="fa-code-fork"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCodeIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCodeIcon ]
+		gives: '<span class="fa-code"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCoffeeIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCoffeeIcon ]
+		gives: '<span class="fa-coffee"></span>'
 
 ]
 
@@ -591,6 +1005,15 @@ FAWCanvasBrushTest >> testFontAwesomeCommentsOutlinedIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCompassIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCompassIcon ]
+		gives: '<span class="fa-compass"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeCompressIcon [
 
 	self
@@ -618,6 +1041,15 @@ FAWCanvasBrushTest >> testFontAwesomeCreditCardIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCropIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCropIcon ]
+		gives: '<span class="fa-crop"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeCrosshairsIcon [
 
 	self
@@ -632,6 +1064,15 @@ FAWCanvasBrushTest >> testFontAwesomeCutIcon [
 	self
 		assert: [ :html | html span fontAwesomeCutIcon ]
 		gives: '<span class="fa-cut"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeCutleryIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeCutleryIcon ]
+		gives: '<span class="fa-cutlery"></span>'
 
 ]
 
@@ -654,6 +1095,51 @@ FAWCanvasBrushTest >> testFontAwesomeDedentIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeDesktopIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeDesktopIcon ]
+		gives: '<span class="fa-desktop"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeDollarIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeDollarIcon ]
+		gives: '<span class="fa-dollar"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeDotCircleOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeDotCircleOutlinedIcon ]
+		gives: '<span class="fa-dot-circle-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeDribbleIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeDribbleIcon ]
+		gives: '<span class="fa-dribbble"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeDropboxIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeDropboxIcon ]
+		gives: '<span class="fa-dropbox"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeEditIcon [
 
 	self
@@ -672,6 +1158,24 @@ FAWCanvasBrushTest >> testFontAwesomeEjectIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeEllipsisHorizontalIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeEllipsisHorizontalIcon ]
+		gives: '<span class="fa-ellipsis-h"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeEllipsisVerticalIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeEllipsisVerticalIcon ]
+		gives: '<span class="fa-ellipsis-v"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeEnvelopeIcon [
 
 	self
@@ -681,11 +1185,56 @@ FAWCanvasBrushTest >> testFontAwesomeEnvelopeIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeEraserIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeEraserIcon ]
+		gives: '<span class="fa-eraser"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeEurIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeEurIcon ]
+		gives: '<span class="fa-eur"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeEuroIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeEuroIcon ]
+		gives: '<span class="fa-euro"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeExchangeIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeExchangeIcon ]
+		gives: '<span class="fa-exchange"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeExclamationCircleIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeExclamationCircleIcon ]
 		gives: '<span class="fa-exclamation-circle"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeExclamationIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeExclamationIcon ]
+		gives: '<span class="fa-exclamation"></span>'
 
 ]
 
@@ -713,6 +1262,15 @@ FAWCanvasBrushTest >> testFontAwesomeExternalLinkIcon [
 	self
 		assert: [ :html | html span fontAwesomeExternalLinkIcon ]
 		gives: '<span class="fa-external-link"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeExternalLinkSquareIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeExternalLinkSquareIcon ]
+		gives: '<span class="fa-external-link-square"></span>'
 
 ]
 
@@ -771,11 +1329,56 @@ FAWCanvasBrushTest >> testFontAwesomeFastForwardIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeFemaleIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeFemaleIcon ]
+		gives: '<span class="fa-female"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeFighterJetIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeFighterJetIcon ]
+		gives: '<span class="fa-fighter-jet"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeFileIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeFileIcon ]
+		gives: '<span class="fa-file"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeFileOutlinedIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeFileOutlinedIcon  ]
 		gives: '<span class="fa-file-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeFileTextIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeFileTextIcon ]
+		gives: '<span class="fa-file-text"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeFileTextOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeFileTextOutlinedIcon ]
+		gives: '<span class="fa-file-text-o"></span>'
 
 ]
 
@@ -807,6 +1410,15 @@ FAWCanvasBrushTest >> testFontAwesomeFilterIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeFireExtinguisherIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeFireExtinguisherIcon ]
+		gives: '<span class="fa-fire-extinguisher"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeFireIcon [
 
 	self
@@ -816,11 +1428,29 @@ FAWCanvasBrushTest >> testFontAwesomeFireIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeFlagCheckeredIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeFlagCheckeredIcon ]
+		gives: '<span class="fa-flag-checkered"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeFlagIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeFlagIcon  ]
 		gives: '<span class="fa-flag"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeFlagOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeFlagOutlinedIcon ]
+		gives: '<span class="fa-flag-o"></span>'
 
 ]
 
@@ -839,6 +1469,15 @@ FAWCanvasBrushTest >> testFontAwesomeFlaskIcon [
 	self
 		assert: [ :html | html span fontAwesomeFlaskIcon ]
 		gives: '<span class="fa-flask"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeFlickrIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeFlickrIcon ]
+		gives: '<span class="fa-flickr"></span>'
 
 ]
 
@@ -888,6 +1527,24 @@ FAWCanvasBrushTest >> testFontAwesomeFolderOpenIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeFolderOpenOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeFolderOpenOutlinedIcon ]
+		gives: '<span class="fa-folder-open-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeFolderOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeFolderOutlinedIcon ]
+		gives: '<span class="fa-folder-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeFontIcon [
 
 	self
@@ -902,6 +1559,42 @@ FAWCanvasBrushTest >> testFontAwesomeForwardIcon [
 	self
 		assert: [ :html | html span fontAwesomeForwardIcon ]
 		gives: '<span class="fa-forward"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeFoursquareIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeFoursquareIcon ]
+		gives: '<span class="fa-foursquare"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeFrownOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeFrownOutlinedIcon ]
+		gives: '<span class="fa-frown-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeGBPIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeGBPIcon ]
+		gives: '<span class="fa-gbp"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeGamepadIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeGamepadIcon ]
+		gives: '<span class="fa-gamepad"></span>'
 
 ]
 
@@ -942,6 +1635,15 @@ FAWCanvasBrushTest >> testFontAwesomeGiftIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeGithubAlternativeIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeGithubAlternativeIcon ]
+		gives: '<span class="fa-github-alt"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeGithubIcon [
 
 	self
@@ -956,6 +1658,15 @@ FAWCanvasBrushTest >> testFontAwesomeGithubSquareIcon [
 	self
 		assert: [ :html | html span fontAwesomeGithubSquareIcon ]
 		gives: '<span class="fa-trophy"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeGittipIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeGittipIcon ]
+		gives: '<span class="fa-gittip"></span>'
 
 ]
 
@@ -1010,6 +1721,24 @@ FAWCanvasBrushTest >> testFontAwesomeHDDOutlinedIcon [
 	self
 		assert: [ :html | html span fontAwesomeHDDOutlinedIcon ]
 		gives: '<span class="fa-hdd-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeHSquareIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeHSquareIcon ]
+		gives: '<span class="fa-h-square"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeHTML5Icon [
+
+	self
+		assert: [ :html | html span fontAwesomeHTML5Icon ]
+		gives: '<span class="fa-html5"></span>'
 
 ]
 
@@ -1086,6 +1815,24 @@ FAWCanvasBrushTest >> testFontAwesomeHomeIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeHospitalOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeHospitalOutlinedIcon ]
+		gives: '<span class="fa-hospital-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeINRIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeINRIcon ]
+		gives: '<span class="fa-inr"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeIdentIcon [
 
 	self
@@ -1100,6 +1847,24 @@ FAWCanvasBrushTest >> testFontAwesomeInfoCircleIcon [
 	self
 		assert: [ :html | html span fontAwesomeInfoCircleIcon ]
 		gives: '<span class="fa-info-circle"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeInfoIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeInfoIcon ]
+		gives: '<span class="fa-info"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeInstagramIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeInstagramIcon ]
+		gives: '<span class="fa-instagram"></span>'
 
 ]
 
@@ -1122,11 +1887,38 @@ FAWCanvasBrushTest >> testFontAwesomeItalicIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeJPYIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeJPYIcon ]
+		gives: '<span class="fa-jpy"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeKeyIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeKeyIcon ]
 		gives: '<span class="fa-key"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeKeyboardOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeKeyboardOutlinedIcon ]
+		gives: '<span class="fa-keyboard-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeLaptopIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeLaptopIcon ]
+		gives: '<span class="fa-laptop"></span>'
 
 ]
 
@@ -1167,6 +1959,33 @@ FAWCanvasBrushTest >> testFontAwesomeLemonOutlinedIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeLevelDownIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeLevelDownIcon ]
+		gives: '<span class="fa-level-down"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeLevelUpIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeLevelUpIcon ]
+		gives: '<span class="fa-level-up"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeLightbulbOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeLightbulbOutlinedIcon ]
+		gives: '<span class="fa-lightbulb-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeLinkIcon [
 
 	self
@@ -1190,6 +2009,15 @@ FAWCanvasBrushTest >> testFontAwesomeLinkedInSquareIcon [
 	self
 		assert: [ :html | html span fontAwesomeLinkedInSquareIcon ]
 		gives: '<span class="fa-linkedin-square"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeLinuxIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeLinuxIcon ]
+		gives: '<span class="fa-linux"></span>'
 
 ]
 
@@ -1230,11 +2058,56 @@ FAWCanvasBrushTest >> testFontAwesomeListUnorderedIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeLocationArrowIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeLocationArrowIcon ]
+		gives: '<span class="fa-location-arrow"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeLockIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeLockIcon  ]
 		gives: '<span class="fa-lock"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeLongArrowDownIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeLongArrowDownIcon ]
+		gives: '<span class="fa-long-arrow-down"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeLongArrowLeftIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeLongArrowLeftIcon ]
+		gives: '<span class="fa-long-arrow-left"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeLongArrowRightIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeLongArrowRightIcon ]
+		gives: '<span class="fa-long-arrow-right"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeLongArrowUpIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeLongArrowUpIcon ]
+		gives: '<span class="fa-long-arrow-up"></span>'
 
 ]
 
@@ -1266,11 +2139,83 @@ FAWCanvasBrushTest >> testFontAwesomeMailForwardIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeMailReplyAllIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeMailReplyAllIcon ]
+		gives: '<span class="fa-mail-reply-all"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeMailReplyIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeMailReplyIcon ]
+		gives: '<span class="fa-mail-reply"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeMaleIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeMaleIcon ]
+		gives: '<span class="fa-male"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeMapMarkerIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeMapMarkerIcon ]
 		gives: '<span class="fa-map-marker"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeMaxCDNIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeMaxCDNIcon ]
+		gives: '<span class="fa-maxcdn"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeMedkitIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeMedkitIcon ]
+		gives: '<span class="fa-medkit"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeMehOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeMehOutlinedIcon ]
+		gives: '<span class="fa-meh-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeMicrophoneIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeMicrophoneIcon ]
+		gives: '<span class="fa-microphone"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeMicrophoneSlashIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeMicrophoneSlashIcon ]
+		gives: '<span class="fa-microphone-slash"></span>'
 
 ]
 
@@ -1293,11 +2238,56 @@ FAWCanvasBrushTest >> testFontAwesomeMinusIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeMinusSquareIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeMinusSquareIcon ]
+		gives: '<span class="fa-minus-square"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeMinusSquareOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeMinusSquareOutlinedIcon ]
+		gives: '<span class="fa-minus-square-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeMobileIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeMobileIcon ]
+		gives: '<span class="fa-mobile"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeMobilePhoneIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeMobilePhoneIcon ]
+		gives: '<span class="fa-mobile-phone"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeMoneyIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeMoneyIcon ]
 		gives: '<span class="fa-money"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeMoonOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeMoonOutlinedIcon ]
+		gives: '<span class="fa-moon-o"></span>'
 
 ]
 
@@ -1320,11 +2310,29 @@ FAWCanvasBrushTest >> testFontAwesomeOutdentIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomePageLinesIcon [
+
+	self
+		assert: [ :html | html span fontAwesomePageLinesIcon ]
+		gives: '<span class="fa-pagelines"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomePaperclipIcon [
 
 	self
 		assert: [ :html | html span fontAwesomePaperclipIcon ]
 		gives: '<span class="fa-paperclip"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomePasteIcon [
+
+	self
+		assert: [ :html | html span fontAwesomePasteIcon ]
+		gives: '<span class="fa-paste"></span>'
 
 ]
 
@@ -1343,6 +2351,15 @@ FAWCanvasBrushTest >> testFontAwesomePencilIcon [
 	self
 		assert: [ :html | html span fontAwesomePencilIcon ]
 		gives: '<span class="fa-pencil"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomePencilSquareIcon [
+
+	self
+		assert: [ :html | html span fontAwesomePencilSquareIcon ]
+		gives: '<span class="fa-pencil-square"></span>'
 
 ]
 
@@ -1410,6 +2427,15 @@ FAWCanvasBrushTest >> testFontAwesomePlaneIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomePlayCircleIcon [
+
+	self
+		assert: [ :html | html span fontAwesomePlayCircleIcon ]
+		gives: '<span class="fa-play-circle"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomePlayIcon [
 
 	self
@@ -1437,6 +2463,15 @@ FAWCanvasBrushTest >> testFontAwesomePlusIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomePlusSquareIcon [
+
+	self
+		assert: [ :html | html span fontAwesomePlusSquareIcon ]
+		gives: '<span class="fa-plus-square-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomePowerOffIcon [
 
 	self
@@ -1451,6 +2486,15 @@ FAWCanvasBrushTest >> testFontAwesomePrintIcon [
 	self
 		assert: [ :html | html span fontAwesomePrintIcon ]
 		gives: '<span class="fa-print"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomePuzzlePieceIcon [
+
+	self
+		assert: [ :html | html span fontAwesomePuzzlePieceIcon ]
+		gives: '<span class="fa-puzzle-piece"></span>'
 
 ]
 
@@ -1473,11 +2517,74 @@ FAWCanvasBrushTest >> testFontAwesomeQuestionCircleIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeQuestionIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeQuestionIcon ]
+		gives: '<span class="fa-question"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeQuoteLeftIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeQuoteLeftIcon ]
+		gives: '<span class="fa-quote-left"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeQuoteRightIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeQuoteRightIcon ]
+		gives: '<span class="fa-quote-right"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeRKWIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeRKWIcon ]
+		gives: '<span class="fa-krw"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeRMBIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeRMBIcon ]
+		gives: '<span class="fa-rmb"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeRSSIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeRSSIcon ]
 		gives: '<span class="fa-rss"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeRSSSquareIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeRSSSquareIcon ]
+		gives: '<span class="fa-rss-square"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeRUBIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeRUBIcon ]
+		gives: '<span class="fa-rub"></span>'
 
 ]
 
@@ -1500,11 +2607,38 @@ FAWCanvasBrushTest >> testFontAwesomeRefreshIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeRenrenIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeRenrenIcon ]
+		gives: '<span class="fa-renren"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeRepeatIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeRepeatIcon ]
 		gives: '<span class="fa-repeat"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeReplyAllIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeReplyAllIcon ]
+		gives: '<span class="fa-reply-all"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeReplyIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeReplyIcon ]
+		gives: '<span class="fa-reply"></span>'
 
 ]
 
@@ -1523,6 +2657,15 @@ FAWCanvasBrushTest >> testFontAwesomeRoadIcon [
 	self
 		assert: [ :html | html span fontAwesomeRoadIcon ]
 		gives: '<span class="fa-road"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeRocketIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeRocketIcon ]
+		gives: '<span class="fa-rocket"></span>'
 
 ]
 
@@ -1568,6 +2711,33 @@ FAWCanvasBrushTest >> testFontAwesomeRotateRightIcon [
 	self
 		assert: [ :html | html span fontAwesomeRotateRightIcon ]
 		gives: '<span class="fa-rotate-right"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeRoubleIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeRoubleIcon ]
+		gives: '<span class="fa-rouble"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeRubleIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeRubleIcon ]
+		gives: '<span class="fa-ruble"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeRupeeIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeRupeeIcon ]
+		gives: '<span class="fa-rupee"></span>'
 
 ]
 
@@ -1626,11 +2796,29 @@ FAWCanvasBrushTest >> testFontAwesomeShareIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeShareSquareIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeShareSquareIcon ]
+		gives: '<span class="fa-share-square"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeShareSquareOutlinedIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeShareSquareOutlinedIcon ]
 		gives: '<span class="fa-share-square-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeShieldIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeShieldIcon ]
+		gives: '<span class="fa-shield"></span>'
 
 ]
 
@@ -1680,6 +2868,60 @@ FAWCanvasBrushTest >> testFontAwesomeSitemapIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeSkypeIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeSkypeIcon ]
+		gives: '<span class="fa-skype"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeSmileOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeSmileOutlinedIcon ]
+		gives: '<span class="fa-smile-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeSortAlphaAscendingIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeSortAlphaAscendingIcon ]
+		gives: '<span class="fa-sort-alpha-asc"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeSortAlphaDescendingIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeSortAlphaDescendingIcon ]
+		gives: '<span class="fa-sort-alpha-desc"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeSortAmountAscendingIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeSortAmountAscendingIcon ]
+		gives: '<span class="fa-sort-amount-asc"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeSortAmountDescendingIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeSortAmountDescendingIcon ]
+		gives: '<span class="fa-sort-amount-desc"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeSortAscendingIcon [
 
 	self
@@ -1716,6 +2958,24 @@ FAWCanvasBrushTest >> testFontAwesomeSortIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeSortNumericAscendingIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeSortNumericAscendingIcon ]
+		gives: '<span class="fa-sort-numeric-asc"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeSortNumericDescendingIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeSortNumericDescendingIcon ]
+		gives: '<span class="fa-sort-numeric-desc"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeSortUpIcon [
 
 	self
@@ -1730,6 +2990,15 @@ FAWCanvasBrushTest >> testFontAwesomeSpin [
 	self
 		assert: [ :html | html div fontAwesomeSpin ]
 		gives: '<div class="fa-spin"></div>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeSpinnerIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeSpinnerIcon ]
+		gives: '<span class="fa-spinner"></span>'
 
 ]
 
@@ -1779,11 +3048,56 @@ FAWCanvasBrushTest >> testFontAwesomeStack2x [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeStackExchangeIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeStackExchangeIcon ]
+		gives: '<span class="fa-stack-exchange"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeStackOverflowIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeStackOverflowIcon ]
+		gives: '<span class="fa-stack-overflow"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeStarHalfEmptyIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeStarHalfEmptyIcon ]
+		gives: '<span class="fa-star-half-empty"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeStarHalfFullIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeStarHalfFullIcon ]
+		gives: '<span class="fa-star-half-full"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeStarHalfIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeStarHalfIcon ]
 		gives: '<span class="fa-star-half"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeStarHalfOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeStarHalfOutlinedIcon ]
+		gives: '<span class="fa-star-half-o"></span>'
 
 ]
 
@@ -1824,6 +3138,15 @@ FAWCanvasBrushTest >> testFontAwesomeStepForwardIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeStethoscopeIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeStethoscopeIcon ]
+		gives: '<span class="fa-stethoscope"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeStopIcon [
 
 	self
@@ -1838,6 +3161,51 @@ FAWCanvasBrushTest >> testFontAwesomeStrikethroughIcon [
 	self
 		assert: [ :html | html span fontAwesomeStrikethroughIcon ]
 		gives: '<span class="fa-strikethrough"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeSubscriptIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeSubscriptIcon ]
+		gives: '<span class="fa-subscript"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeSuitcaseIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeSuitcaseIcon ]
+		gives: '<span class="fa-suitcase"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeSunOutlinedIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeSunOutlinedIcon ]
+		gives: '<span class="fa-sun-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeSuperscriptIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeSuperscriptIcon ]
+		gives: '<span class="fa-superscript"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeTRYIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeTRYIcon ]
+		gives: '<span class="fa-try"></span>'
 
 ]
 
@@ -1878,6 +3246,15 @@ FAWCanvasBrushTest >> testFontAwesomeTableIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeTabletIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeTabletIcon ]
+		gives: '<span class="fa-tablet"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeTachometerIcon [
 
 	self
@@ -1914,6 +3291,15 @@ FAWCanvasBrushTest >> testFontAwesomeTasksIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeTerminalIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeTerminalIcon ]
+		gives: '<span class="fa-terminal"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeTextHeightIcon [
 
 	self
@@ -1941,6 +3327,15 @@ FAWCanvasBrushTest >> testFontAwesomeThumbTackIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeThumbsDownIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeThumbsDownIcon ]
+		gives: '<span class="fa-thumbs-down"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeThumbsOutlinedDownIcon [
 
 	self
@@ -1955,6 +3350,24 @@ FAWCanvasBrushTest >> testFontAwesomeThumbsOutlinedUpIcon [
 	self
 		assert: [ :html | html span fontAwesomeThumbsOutlinedUpIcon ]
 		gives: '<span class="fa-thumbs-o-up"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeThumbsUpIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeThumbsUpIcon ]
+		gives: '<span class="fa-thumbs-up"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeTicketIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeTicketIcon ]
+		gives: '<span class="fa-ticket"></span>'
 
 ]
 
@@ -1995,11 +3408,56 @@ FAWCanvasBrushTest >> testFontAwesomeTintIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeToggleDownIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeToggleDownIcon ]
+		gives: '<span class="fa-toggle-down"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeToggleLeftIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeToggleLeftIcon ]
+		gives: '<span class="fa-toggle-left"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeToggleRightIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeToggleRightIcon ]
+		gives: '<span class="fa-toggle-right"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeToggleUpIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeToggleUpIcon ]
+		gives: '<span class="fa-toggle-up"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeTrashOutlinedIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeTrashOutlinedIcon ]
 		gives: '<span class="fa-trash-o"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeTrelloIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeTrelloIcon ]
+		gives: '<span class="fa-trello"></span>'
 
 ]
 
@@ -2022,6 +3480,33 @@ FAWCanvasBrushTest >> testFontAwesomeTruckIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeTumblrIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeTumblrIcon ]
+		gives: '<span class="fa-tumblr"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeTumblrSquareIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeTumblrSquareIcon ]
+		gives: '<span class="fa-tumblr-square"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeTurkishLiraIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeTurkishLiraIcon ]
+		gives: '<span class="fa-turkish-lira"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeTwitterIcon [
 
 	self
@@ -2040,6 +3525,24 @@ FAWCanvasBrushTest >> testFontAwesomeTwitterSquareIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeUSDIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeUSDIcon ]
+		gives: '<span class="fa-usd"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeUmbrellaIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeUmbrellaIcon ]
+		gives: '<span class="fa-umbrella"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeUnderlineIcon [
 
 	self
@@ -2054,6 +3557,24 @@ FAWCanvasBrushTest >> testFontAwesomeUndoIcon [
 	self
 		assert: [ :html | html span fontAwesomeUndoIcon ]
 		gives: '<span class="fa-undo"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeUnlinkIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeUnlinkIcon ]
+		gives: '<span class="fa-unlink"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeUnlockAlternativeIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeUnlockAlternativeIcon ]
+		gives: '<span class="fa-unlock-alt"></span>'
 
 ]
 
@@ -2094,6 +3615,15 @@ FAWCanvasBrushTest >> testFontAwesomeUserIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeUserMedicineIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeUserMedicineIcon ]
+		gives: '<span class="fa-user-md"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeUsersIcon [
 
 	self
@@ -2103,11 +3633,29 @@ FAWCanvasBrushTest >> testFontAwesomeUsersIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeVKIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeVKIcon ]
+		gives: '<span class="fa-vk"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeVideoCameraIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeVideoCameraIcon ]
 		gives: '<span class="fa-video-camera"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeVimeoSquareIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeVimeoSquareIcon ]
+		gives: '<span class="fa-vimeo-square"></span>'
 
 ]
 
@@ -2139,6 +3687,15 @@ FAWCanvasBrushTest >> testFontAwesomeVolumeUpIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeWONIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeWONIcon ]
+		gives: '<span class="fa-won"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeWarningIcon [
 
 	self
@@ -2148,11 +3705,92 @@ FAWCanvasBrushTest >> testFontAwesomeWarningIcon [
 ]
 
 { #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeWeiboIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeWeiboIcon ]
+		gives: '<span class="fa-weibo"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeWheelchairIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeWheelchairIcon ]
+		gives: '<span class="fa-wheelchair"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeWindowsIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeWindowsIcon ]
+		gives: '<span class="fa-windows"></span>'
+
+]
+
+{ #category : #'tests-icons' }
 FAWCanvasBrushTest >> testFontAwesomeWrenchIcon [
 
 	self
 		assert: [ :html | html span fontAwesomeWrenchIcon ]
 		gives: '<span class="fa-wrench"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeXingIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeXingIcon ]
+		gives: '<span class="fa-xing"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeXingSquareIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeXingSquareIcon ]
+		gives: '<span class="fa-xing-square"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeYENIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeYENIcon ]
+		gives: '<span class="fa-yen"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeYoutubeIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeYoutubeIcon ]
+		gives: '<span class="fa-youtube"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeYoutubePlayIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeYoutubePlayIcon ]
+		gives: '<span class="fa-youtube-play"></span>'
+
+]
+
+{ #category : #'tests-icons' }
+FAWCanvasBrushTest >> testFontAwesomeYoutubeSquareIcon [
+
+	self
+		assert: [ :html | html span fontAwesomeYoutubeSquareIcon ]
+		gives: '<span class="fa-youtube-square"></span>'
 
 ]
 
