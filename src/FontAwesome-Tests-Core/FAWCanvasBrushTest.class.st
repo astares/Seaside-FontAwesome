@@ -1,3 +1,31 @@
+"
+|sourceCode testCode|
+#(
+
+'Bolt' 'fa-bolt'
+'Sitemap' 'fa-sitemap' 
+
+) pairsDo: [:name :style |
+	
+  sourceCode := 'fontAwesome{1}Icon
+
+	self class: ''{2}''' format: (Array with: name with: style).
+	
+   WATagBrush
+   		compile:  sourceCode classified: '*fontawesome-core-icons'.	
+	
+  testCode := 'testFontAwesome{1}Icon
+
+	self
+		assert: [ :html | html span fontAwesome{1}Icon ]
+		gives: ''<span class=""{2}""></span>''
+' format: (Array with: name with: style).
+
+FAWCanvasBrushTest
+   compile:  testCode classified: 'tests-icons'
+
+]
+"
 Class {
 	#name : #FAWCanvasBrushTest,
 	#superclass : #WAAbstractCanvasBrushTest,
