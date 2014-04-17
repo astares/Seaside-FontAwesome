@@ -1,3 +1,73 @@
+"
+# FontAwesome for Seaside
+
+## Project info
+
+The ""FontAwesome for Seaside"" project is a small [Seaside][1] wrapper for the FontAwesome project. 
+[FontAwesome][2] is an iconic font designed for the user with [Twitter Bootstrap][3]. 
+
+The project is located on STHub at [http://smalltalkhub.com/#!/~TorstenBergmann/FontAwesome][4]
+
+## License
+Font Awesome is licensed under [SIL OFL 1.1][5] with Code licensed under MIT License.
+The Pharo Smalltalk wrapper code is under MIT License.
+
+## Installation
+
+To install just open the Pharo configuration browser and load ""FontAwesome"" from there. This will install Seaside, Bootstrap for Seaside and the FontAwesome wrapper.
+
+Alternatively to install the packages manually into your Pharo image just evaluate:
+
+    Gofer new
+        url: 'http://smalltalkhub.com/mc/TorstenBergmann/FontAwesome/main';
+        package: 'ConfigurationOfFontAwesome';
+        load.
+    ((Smalltalk at: #ConfigurationOfFontAwesome) project stableVersion) load.
+
+## Run the Demo
+
+Start the web server for Seaside - for instance with Zinc evaluate:
+
+    ZnZincServerAdaptor startOn: 8080
+    
+Now point your browser to [http://localhost:8080/fontawesome][6]
+
+## Use in your own application
+### Necessary Seaside libraries 
+To add FontAwesome to your seaside application you just have to add the appropriate seaside file libraries containing the CSS and fonts to your Seaside application. 
+
+Depending on the scenario there is a **FAWDeploymentLibrary** and a **FAWDevelopmentLibrary** that you will find in the package ***FontAwesome-Core*** in the category ***'FontAwesome-Core-Libraries'***
+
+Have a look at the **#register** method in the **FAWExamplesHome** class for an example.
+
+### Use in your code
+If the FontAwesome library is registered with your Seaside application you can use the fontAwesome selectors in your usual rendering methods (like #renderContentOn:).
+
+At a minimum you need to FontAwesome style to a surrounding div tag/bootstrap container by calling #fontAwesome:
+
+    renderContentOn: html
+	    html div 
+		    	fontAwesome;
+			    with: [ html span fontAwesomeFacebookIcon ]
+
+
+# Packages
+
+- FontAwesome-Core - package with the core, contains anything you need in an own app
+- FontAwesome-Tests-Core - package with the SUnit tests
+- FontAwesome-Examples - example package for the demo
+
+# Testing
+The package comes with 422 tests in the package ***FontAwesome-Tests-Core***. Just use the SUnit TestRunner to run them.
+
+
+  [1]: http://www.seaside.st
+  [2]: http://fortawesome.github.io/Font-Awesome/
+  [3]: http://getbootstrap.com
+  [4]: http://smalltalkhub.com/#!/~TorstenBergmann/FontAwesome
+  [5]: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+  [6]: http://localhost:8080/fontawesome
+"
 Class {
 	#name : #ConfigurationOfFontAwesome,
 	#superclass : #Object,
