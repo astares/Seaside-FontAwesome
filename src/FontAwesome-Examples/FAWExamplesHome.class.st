@@ -26,21 +26,41 @@ FAWExamplesHome class >> register [
 
 { #category : #rendering }
 FAWExamplesHome >> renderContentOn: html [
-
-	html tbsContainer 
+	
+	html div 
 			fontAwesome;
 			fontAwesomeLarge;			
 			with: [ 
-				html div 
-				with: [ 
-				html span
-					class: 'fa-list-alt'.
+				html heading: 'Font wesome Examples'.
+				self renderSpinningOn: html.
+				self renderIconsOn: html.
 				 
 					
 	 ] 
 	
-	].
-	
+	 
+]
+
+{ #category : #rendering }
+FAWExamplesHome >> renderIconsOn: html [
+
+	|icons|
+	html heading level: 2; with:  'Icons'.
+	icons := WATagBrush methods select: [:each | (each selector asString beginsWith: 'fontAwesome') and: [ each selector asString endsWith: 'Icon' ]].
+			
+	icons do: [:each |
+		html space.
+		html span perform: each selector.
+		html space;space;space; text: each selector.
+		html break; break.	
+	]
+ 
+]
+
+{ #category : #rendering }
+FAWExamplesHome >> renderSpinningOn: html [
+
+	html div fontAwesomeSpin; with: [ html heading fontAwesomeFontIcon ].
 ]
 
 { #category : #updating }
