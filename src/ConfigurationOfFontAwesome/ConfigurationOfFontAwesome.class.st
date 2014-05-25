@@ -268,3 +268,20 @@ ConfigurationOfFontAwesome >> version010: spec [
 			package: 'FontAwesome-Examples' with: 'FontAwesome-Examples-TorstenBergmann.2'. ].
 
 ]
+
+{ #category : #versions }
+ConfigurationOfFontAwesome >> version020: spec [
+	<version: '0.2.0' imports: #('0.1-baseline' )>
+
+	spec for: #'common' do: [
+		spec blessing: #'stable'.
+		spec description: 'version 0.1.0'.
+		spec author: 'TorstenBergmann'.
+		spec timestamp: '5/25/2014 09:21'.
+		spec project: 'Bootstrap' with: '0.8.0'.
+		spec 
+			package: 'FontAwesome-Core' with: 'FontAwesome-Core-TorstenBergmann.2';
+			package: 'FontAwesome-Tests-Core' with: 'FontAwesome-Tests-Core-TorstenBergmann.3';
+			package: 'FontAwesome-Examples' with: 'FontAwesome-Examples-TorstenBergmann.2'. ].
+
+]
