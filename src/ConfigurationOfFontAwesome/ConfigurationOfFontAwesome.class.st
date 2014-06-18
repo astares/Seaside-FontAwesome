@@ -278,7 +278,7 @@ ConfigurationOfFontAwesome >> version020: spec [
 		spec description: 'version 0.1.0'.
 		spec author: 'TorstenBergmann'.
 		spec timestamp: '5/25/2014 09:21'.
-		spec project: 'Bootstrap' with: '0.8.0'.
+		spec project: 'Bootstrap' with: '0.9.0'.
 		spec 
 			package: 'FontAwesome-Core' with: 'FontAwesome-Core-TorstenBergmann.2';
 			package: 'FontAwesome-Tests-Core' with: 'FontAwesome-Tests-Core-TorstenBergmann.3';
