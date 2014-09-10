@@ -302,7 +302,7 @@ ConfigurationOfFontAwesome >> customProjectAttributes [
 ConfigurationOfFontAwesome >> development: spec [
 	<symbolicVersion: #'development'>
 
-	spec for: #'common' version: '0.3-baseline'.
+	spec for: #'common' version: '0.4-baseline'.
 
 ]
 
@@ -323,7 +323,7 @@ ConfigurationOfFontAwesome >> project [
 ConfigurationOfFontAwesome >> stable: spec [
 	<symbolicVersion: #'stable'>
 
-	spec for: #'common' version: '0.2.0'.
+	spec for: #'common' version: '0.3.0'.
 
 ]
 
