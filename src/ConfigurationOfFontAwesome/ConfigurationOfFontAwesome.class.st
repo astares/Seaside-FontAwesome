@@ -369,7 +369,7 @@ ConfigurationOfFontAwesome >> version030: spec [
 		spec description: 'Version 0.3.0 updated to FontAwesome 4.1.0'.
 		spec author: 'TorstenBergmann'.
 		spec timestamp: '8/14/2014 10:57'.
-		spec project: 'Bootstrap' with: '0.11.0'.
+		spec project: 'Bootstrap' with: '0.12.0'.
 		spec 
 			package: 'FontAwesome-Core' with: 'FontAwesome-Core-TorstenBergmann.3';
 			package: 'FontAwesome-Tests-Core' with: 'FontAwesome-Tests-Core-TorstenBergmann.3';
