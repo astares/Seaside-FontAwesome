@@ -375,3 +375,19 @@ ConfigurationOfFontAwesome >> version030: spec [
 			package: 'FontAwesome-Tests-Core' with: 'FontAwesome-Tests-Core-TorstenBergmann.3';
 			package: 'FontAwesome-Examples' with: 'FontAwesome-Examples-TorstenBergmann.2'. ].
 ]
+
+{ #category : #versions }
+ConfigurationOfFontAwesome >> version031: spec [
+	<version: '0.3.1' imports: #('0.3-baseline' )>
+
+	spec for: #'common' do: [
+		spec blessing: #'stable'.
+		spec description: 'Version 0.3.0 updated to FontAwesome 4.1.0'.
+		spec author: 'TorstenBergmann'.
+		spec timestamp: '8/14/2014 10:57'.
+		spec project: 'Bootstrap' with: '0.12.2'.
+		spec 
+			package: 'FontAwesome-Core' with: 'FontAwesome-Core-TorstenBergmann.3';
+			package: 'FontAwesome-Tests-Core' with: 'FontAwesome-Tests-Core-TorstenBergmann.3';
+			package: 'FontAwesome-Examples' with: 'FontAwesome-Examples-TorstenBergmann.2'. ].
+]
