@@ -323,7 +323,7 @@ ConfigurationOfFontAwesome >> project [
 ConfigurationOfFontAwesome >> stable: spec [
 	<symbolicVersion: #'stable'>
 
-	spec for: #'common' version: '0.3.0'.
+	spec for: #'common' version: '0.3.1'.
 
 ]
 
