@@ -225,7 +225,7 @@ ConfigurationOfFontAwesome >> baseline02: spec [
 		spec project: 'Bootstrap' with: [
 				spec
 					className: #ConfigurationOfBootstrap;
-					versionString: '0.11.0';
+					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/Bootstrap/main/' ].
 		spec 
 			package: 'FontAwesome-Core';
@@ -250,7 +250,7 @@ ConfigurationOfFontAwesome >> baseline03: spec [
 		spec project: 'Bootstrap' with: [
 				spec
 					className: #ConfigurationOfBootstrap;
-					versionString: '0.12.0';
+					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/Bootstrap/main/' ].
 		spec 
 			package: 'FontAwesome-Core';
@@ -348,7 +348,7 @@ ConfigurationOfFontAwesome >> project [
 ConfigurationOfFontAwesome >> stable: spec [
 	<symbolicVersion: #'stable'>
 
-	spec for: #'common' version: '0.4.0'.
+	spec for: #'common' version: '0.4.0'.
 
 ]
 
@@ -357,7 +357,7 @@ ConfigurationOfFontAwesome >> version010: spec [
 	<version: '0.1.0' imports: #('0.1-baseline' )>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: 'version 0.1.0'.
 		spec author: 'TorstenBergmann'.
 		spec timestamp: '4/17/2014 09:21'.
@@ -374,7 +374,7 @@ ConfigurationOfFontAwesome >> version020: spec [
 	<version: '0.2.0' imports: #('0.2-baseline' )>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: 'version 0.2.0'.
 		spec author: 'TorstenBergmann'.
 		spec timestamp: '8/14/2014 10:57'.
@@ -390,7 +390,7 @@ ConfigurationOfFontAwesome >> version030: spec [
 	<version: '0.3.0' imports: #('0.3-baseline' )>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: 'Version 0.3.0 updated to FontAwesome 4.1.0'.
 		spec author: 'TorstenBergmann'.
 		spec timestamp: '8/14/2014 10:57'.
@@ -406,7 +406,7 @@ ConfigurationOfFontAwesome >> version031: spec [
 	<version: '0.3.1' imports: #('0.3-baseline' )>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: 'Version 0.3.0 updated to FontAwesome 4.1.0'.
 		spec author: 'TorstenBergmann'.
 		spec timestamp: '8/14/2014 10:57'.
@@ -422,8 +422,8 @@ ConfigurationOfFontAwesome >> version040: spec [
 	<version: '0.4.0' imports: #('0.4-baseline' )>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
-		spec description: 'Version 0.3.0 updated to FontAwesome 4.1.0'.
+		spec blessing: #'release'.
+		spec description: 'Version 0.4.0 updated to FontAwesome 4.1.0 and latest bootstrap'.
 		spec author: 'TorstenBergmann'.
 		spec timestamp: '8/14/2014 10:57'.
 		spec project: 'Bootstrap' with: '0.13.0'.
