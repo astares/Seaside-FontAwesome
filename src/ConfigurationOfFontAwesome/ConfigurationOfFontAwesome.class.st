@@ -315,6 +315,31 @@ ConfigurationOfFontAwesome >> baseline05: spec [
 
 ]
 
+{ #category : #baselines }
+ConfigurationOfFontAwesome >> baseline06: spec [
+	<version: '0.6-baseline'>
+
+	spec for: #'common' do: [
+		spec blessing: #'baseline'.
+		spec repository: 'http://smalltalkhub.com/mc/TorstenBergmann/FontAwesome/main/'.
+		spec project: 'Bootstrap' with: [
+				spec
+					className: #ConfigurationOfBootstrap;
+					versionString: #'stable';
+					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/Bootstrap/main/' ].
+		spec 
+			package: 'FontAwesome-Core';
+			package: 'FontAwesome-Tests-Core' with: [
+				spec requires: #('FontAwesome-Core' ). ];
+			package: 'FontAwesome-Examples' with: [
+				spec requires: #('FontAwesome-Core' ). ].
+		spec 
+			group: 'Core' with: #('FontAwesome-Core' );
+			group: 'Examples' with: #('FontAwesome-Examples' );
+			group: 'Tests' with: #('FontAwesome-Tests-Core' ). ].
+
+]
+
 { #category : #accessing }
 ConfigurationOfFontAwesome >> customProjectAttributes [
 	 "Edit to return a collection of any custom attributes e.g. for conditional loading: Array with: #'Condition1' with: #'Condition2.
@@ -327,7 +352,7 @@ ConfigurationOfFontAwesome >> customProjectAttributes [
 ConfigurationOfFontAwesome >> development: spec [
 	<symbolicVersion: #'development'>
 
-	spec for: #'common' version: '0.5-baseline'.
+	spec for: #'common' version: '0.6-baseline'.
 
 ]
 
@@ -348,7 +373,7 @@ ConfigurationOfFontAwesome >> project [
 ConfigurationOfFontAwesome >> stable: spec [
 	<symbolicVersion: #'stable'>
 
-	spec for: #'common' version: '0.4.0'.
+	spec for: #'common' version: '0.5.0'.
 
 ]
 
@@ -427,6 +452,22 @@ ConfigurationOfFontAwesome >> version040: spec [
 		spec author: 'TorstenBergmann'.
 		spec timestamp: '8/14/2014 10:57'.
 		spec project: 'Bootstrap' with: '0.13.0'.
+		spec 
+			package: 'FontAwesome-Core' with: 'FontAwesome-Core-TorstenBergmann.3';
+			package: 'FontAwesome-Tests-Core' with: 'FontAwesome-Tests-Core-TorstenBergmann.3';
+			package: 'FontAwesome-Examples' with: 'FontAwesome-Examples-TorstenBergmann.2'. ].
+]
+
+{ #category : #versions }
+ConfigurationOfFontAwesome >> version050: spec [
+	<version: '0.5.0' imports: #('0.5-baseline' )>
+
+	spec for: #'common' do: [
+		spec blessing: #'release'.
+		spec description: 'Version 0.4.0 updated to FontAwesome 4.1.0 and latest bootstrap'.
+		spec author: 'TorstenBergmann'.
+		spec timestamp: '8/14/2014 10:57'.
+		spec project: 'Bootstrap' with: '0.14.0'.
 		spec 
 			package: 'FontAwesome-Core' with: 'FontAwesome-Core-TorstenBergmann.3';
 			package: 'FontAwesome-Tests-Core' with: 'FontAwesome-Tests-Core-TorstenBergmann.3';
