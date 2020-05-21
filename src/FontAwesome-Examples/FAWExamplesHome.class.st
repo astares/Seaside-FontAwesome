@@ -30,7 +30,7 @@ FAWExamplesHome >> renderContentOn: html [
 			fontAwesome;
 			fontAwesomeLarge;			
 			with: [ 
-				html heading: 'Font wesome Examples'.
+				html heading: 'FontAwesome Examples'.
 				self renderSpinningOn: html.
 				self renderIconsOn: html.
 				 
