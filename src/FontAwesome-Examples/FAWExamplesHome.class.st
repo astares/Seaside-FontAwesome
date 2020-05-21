@@ -20,7 +20,6 @@ FAWExamplesHome class >> register [
 	app := WAAdmin register: self asApplicationAt: 'fontawesome'.
 	app 
 		addLibrary: JQDeploymentLibrary;
-		addLibrary: TBSDevelopmentLibrary;
 		addLibrary: FAWDevelopmentLibrary 
 ]
 
