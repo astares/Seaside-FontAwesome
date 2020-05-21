@@ -24,5 +24,5 @@ BaselineOfFontAwesome >> baseline: spec [
 				group: 'Tests' with: #('FontAwesome-Core-Tests');
 				group: 'Examples' with: #('FontAwesome-Examples');
 				group: 'all' with: #('Core' 'Tests' 'Examples');
-				group: 'default' with: #('Core' 'Tests') ]
+				group: 'default' with: #('all') ]
 ]
