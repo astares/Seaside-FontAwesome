@@ -20,7 +20,7 @@ Then load FontAwesome
 ```Smalltalk
 Metacello new
   baseline:'FontAwesome';
-  repository: 'github://astares/FontAwesome:master/src';
+  repository: 'github://astares/Seaside-FontAwesome:master/src';
   load.
 ```
  
